@@ -3,12 +3,12 @@ package com.kevin.shyriapp
 class ShyriModel{
 
     var id = 0
-    lateinit var cat : String
-    lateinit var shyri: String
+    var cat_id = 0
+    lateinit var sms: String
 
-    constructor(id: Int, cat: String, shyri: String) {
+    constructor(id: Int, cat_id: Int,sms: String) {
         this.id = id
-        this.cat = cat
-        this.shyri = shyri
+        this.cat_id = cat_id
+        this.sms = sms
     }
 }
